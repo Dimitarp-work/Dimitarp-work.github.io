@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.toph1 {
+  font-size: 30px;
+}
+
+.leftcolumn {
+  padding-left: 200px;
+
+  width: 75%;
+}
+
+.card {
+
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}

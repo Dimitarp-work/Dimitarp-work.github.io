@@ -1,0 +1,36 @@
+
+table,
+th,
+td {
+    border-collapse: separate;
+    border-radius: 15px;
+    padding: 15px;
+    padding-top: 45px;
+    margin: auto;
+    color: #fbfafa;
+}
+
+
+
+table {
+    border: #fbfafa;
+    border-style: double dotted;
+    width: 92%; 
+    
+}
+
+th {
+    font-weight: bold;
+    border: 2px solid black;
+   
+}
+
+td {
+    border: 2px solid black;
+    font-size: 14;
+
+}
+
+table tr td:nth-child(2) {
+    width: 400px;
+}
