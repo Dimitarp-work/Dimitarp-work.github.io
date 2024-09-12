@@ -19,6 +19,29 @@
   margin-top: 20px;
 }
 
+.card p{
+
+  background-color: aliceblue;
+}
+
+.card h2 {
+  background-color: aliceblue;
+  
+}
+.card h5 {
+  background-color: aliceblue;
+}
+
+.mybox { 
+  
+  background-color: aliceblue;
+} 
+.mybox1 { 
+  display: none; 
+  background-color: aliceblue;
+} 
+
+
 .row:after {
   content: "";
   display: table;

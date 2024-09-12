@@ -1,10 +1,10 @@
 body {
-   
+
     background-image: url(https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header-53082_1080x675.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    
+
 }
 
 main {
@@ -13,21 +13,21 @@ main {
 }
 
 
-#open_header{
+#open_header {
     padding-top: 220px;
     padding-left: 220px;
     padding-right: 220px;
     padding-bottom: 80px;
     font-size: 23px;
     background-color: white;
-   
+
     color: #491919;
     text-align: center;
 
     border: 1px solid #EEEEEE;
     box-shadow: 1px 1px 0 #DDDDDD;
     display: block;
-    font-family: 'Marck Script',cursive;
+    font-family: 'Marck Script', cursive;
     font-size: 22px;
     line-height: 50px;
     margin: 2% auto;
@@ -36,14 +36,15 @@ main {
     height: 487px;
     width: 530px;
 
-    background-image: -moz-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
-    background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+    background-image: -moz-linear-gradient(top, transparent, transparent 49px, #E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46%, circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%);
+    background-image: -webkit-linear-gradient(top, transparent, transparent 49px, #E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
 
-    -webkit-background-size:  100% 50px;
+    -webkit-background-size: 100% 50px;
     background-size: 100% 50px;
 }
+
 #paragraph1 {
-    background-color: rgba(87,143,140,255);
+    background-color: rgba(87, 143, 140, 255);
     text-align: center;
     font-size: 23px;
     padding-top: 20px;
@@ -55,7 +56,7 @@ main {
     border: 1px solid #EEEEEE;
     box-shadow: 1px 1px 0 #DDDDDD;
     display: block;
-    font-family: 'Marck Script',cursive;
+    font-family: 'Marck Script', cursive;
     font-size: 22px;
     line-height: 50px;
     margin: 2% auto;
@@ -64,19 +65,20 @@ main {
     height: 488px;
     width: 530px;
 
-    background-image: -moz-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
-    background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+    background-image: -moz-linear-gradient(top, transparent, transparent 49px, #E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46%, circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%);
+    background-image: -webkit-linear-gradient(top, transparent, transparent 49px, #E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
 
-    -webkit-background-size:  100% 50px;
+    -webkit-background-size: 100% 50px;
     background-size: 100% 50px;
-    
+
 }
 
 #sectionbox {
     display: flex;
     text-align: center;
 }
-#sectionbox .box2{
+
+#sectionbox .box2 {
     padding-top: 90px;
     padding-left: 90px;
     padding-right: 90px;
@@ -85,18 +87,19 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.list h5{
+
+.list h5 {
     text-align: center;
     font-size: 25px;
     padding-top: 50px;
 }
 
-.list ul{
+.list ul {
     text-align: center;
-   
+
 }
 
-.list li{
+.list li {
     font-size: 20px;
     border: 2px solid black;
     border-style: ridge;
@@ -115,22 +118,33 @@ main {
     display: grid;
     grid-template-columns: 2fr 4fr;
 }
+
 .left {
     position: initial;
-    background-color:  rgba(0,92,149,255);
+    background-color: rgba(0, 92, 149, 255);
     padding: 20px;
     color: white;
-    
- 
+
+
 }
+
 .right {
     position: initial;
-    background-color: rgba(23,128,195,255);
+    background-color: rgba(23, 128, 195, 255);
     padding: 20px;
- color: white;
+    color: white;
 }
-.image, .Contact, .Skills, .Language, .Hobbies, .title, 
-.Summary, .Experience, .Education, .project {
+
+.image,
+.Contact,
+.Skills,
+.Language,
+.Hobbies,
+.title,
+.Summary,
+.Experience,
+.Education,
+.project {
     margin-bottom: 30px;
 }
 
@@ -140,7 +154,7 @@ main {
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    
+
 
     width: auto;
 }
@@ -263,3 +277,35 @@ main {
         height: 50vh;
     }
 }
+
+
+
+.sidenav {
+    height: 100%;
+    width: 100%;
+   
+  
+    top: 0;
+    left: 0;
+    background-color: #373636;
+   
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
