@@ -38,7 +38,24 @@
         </a></li>
     </ul>
   </nav>
+  <aside>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ HBO ICT GITHUB</a>
+      <a href="https://hz.nl/en/secure/voor-medewerkers/jaarrooster-2 " target="_blank">MyHZ study progress</a>
+      <a href="https://learn.hz.nl/my/" target="_blank">Learn environment</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+        target="_blank">IR for ICT</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
+        target="_blank">Course and Examination Regulations</a>
+    </div>
+  </aside>
 
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Usefull links</button>  
+  </div>
+
+  
   <section class="wrap">
 
   </section>
@@ -48,169 +65,133 @@
 
   <table>
     <colgroup>
-      <col span="1" style="background-color: rgb(80, 78, 78);">
-      <col span="5" style="background-color: rgba(0,92,149,255);">
-    </colgroup>
-
-    <tr>
-      <th>Quarter</th>
-      <th>Course</th>
-      <th>EC's </th>
-      <th>Exam </th>
-      <th>Grade </th>
-    </tr>
-
-    <tr>
-      <td rowspan="3">1</td>
-      <td>Program- & Career Orientation</td>
-      <td>2.5 </td>
-      <td> Assessment website </td>
-      <td>0 </td>
-    </tr>
-
-    <tr>
-      <!--Quarter1-->
-      <td>Computer science basics</td>
-      <td>5 </td>
-      <td>Written exam </td>
-      <td>0 </td>
-    </tr>
-
-    <tr>
-      <!--Quarter1-->
-      <td>Basic Programing</td>
-      <td> 5 </td>
-      <td>Case study exam </td>
-      <td>0 </td>
-    </tr>
-
-
-    <tr></tr>
-    <td rowspan="16">2</td>
-    <td rowspan="3">Object orientated programming</td>
-    <td rowspan="3"> 5 </td>
-    <td>Group Assiament</td>
-    <td> 0 </td>
-    </tr>
-
-    <tr></tr>
-    <!--Quarter2-->
-    <!--5-->
-    <!--Object orientated programming-->
-    <td>Exam</td>
-    <td> 0 </td>
-    </tr>
-
-    <tr>
-      <!--Quarter2 -->
-      <td rowspan="4">Framework project 1</td>
-      <td>5</td>
-      <td>On-site case study exam</td>
-      <td>0</td>
-    </tr>
-
-    <tr>
-      <!--Quarter2 -->
-      <!--Framework project 1-->
-      <td>1.25</td>
-      <td>Database exam </td>
-      <td>0</td>
-    </tr>
-
-    <tr>
-      <!--Quarter2-->
-      <!--Framework project 1-->
-      <td>2.5</td>
-      <td>Group presentation on project result</td>
-      <td>0</td>
-    </tr>
-
-    <tr>
-      <!--Quarter2 -->
-      <!--Framework project 1-->
-      <td>1.25</td>
-      <td>Group portfolio with individual elements on requirements</td>
-      <td>0</td>
-    </tr>
-
-    <tr>
-      <!--Quarter2-->
-      <td rowspan="5">Framework Project 2</td>
-      <td rowspan="3">2.5</td>
-      <td>Final delivery</td>
-      <td>0</td>
-    </tr>
-
-    <tr>
-    <!--Quarter2-->
-    <!--Framework Project 2 -->
-    <!-- 2.5 -->
-    <td>Report of acceptance tests and optional assessments</td>
-    <td>0</td>
-    </tr>
-
-    <tr></tr>
-    <!--Quarter2-->
-    <!--Framework Project 2-->
-    <td>5</td>
-    <td>IT Development portfolio</td>
-    <td>0</td>
-    </tr>
-
-    <tr></tr>
-    <!--Quarter2-->
-    <td> Business IT Consultancy basics</td>
-    <td>2.5</td>
-    <td>Video</td>
-    <td>0</td>
-    </tr>
-
-    <tr></tr>
-    <!--Quarter2-->
-    <td>Personal Professional Development Exploration</td>
-    <td>12.5</td>
-    <td>Criterium focused interview </td>
-    <td>0</td>
-    
-    <colgroup> 
-      <col span="1" style="background-color: rgb(80, 78, 78);">
-      <col span="2" style="background-color: rgba(0,92,149,255);">
+        <col span="1" style="background-color: rgb(80, 78, 78);">
+        <col span="5" style="background-color: rgba(0,92,149,255);">
     </colgroup>
     <tr>
-      <th>
-        Maximum aqurible EC
-       
-      </th>
-      <th rowspan="1">
-        NBSA boundary
-      </th>
-      <th rowspan="1 ">
-        Curent amount of EC
-      </th>
+        <th>Quarter</th>
+        <th>Course</th>
+        <th>EC's</th>
+        <th>Exam</th>
+        <th>Grade</th>
+        <th>Completed</th>
+    </tr>
 
+    <!-- Quarter 1 Courses -->
+    <tr>
+        <td rowspan="3">1</td>
+        <td>Program- & Career Orientation</td>
+        <td>2.5</td>
+        <td>Assessment website</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="2.5"></td>
     </tr>
     <tr>
-      <td>
-        60 EC
-      </td>
-      <td>
-        45 EC
-      </td>
-      <td>
-        0 EC
-      </td>
+        <td>Computer Science Basics</td>
+        <td>5</td>
+        <td>Written exam</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
+    </tr>
+    <tr>
+        <td>Basic Programming</td>
+        <td>5</td>
+        <td>Case study exam</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
     </tr>
 
+    <!-- Quarter 2 Courses -->
+    <tr>
+        <td rowspan="5">2</td>
+        <td>Object-oriented Programming</td>
+        <td>5</td>
+        <td>Group Assignment</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
+    </tr>
+    <tr>
+        <td>Framework Project 1</td>
+        <td>5</td>
+        <td>On-site case study exam</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
+    </tr>
+    <tr>
+        <td>Database Exam</td>
+        <td>1.25</td>
+        <td>Database exam</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="1.25"></td>
+    </tr>
+    <tr>
+        <td>Group Presentation on Project Result</td>
+        <td>2.5</td>
+        <td>Presentation</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="2.5"></td>
+    </tr>
+    <tr>
+        <td>Group Portfolio with Individual Elements</td>
+        <td>1.25</td>
+        <td>Group portfolio</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="1.25"></td>
+    </tr>
 
+    <!-- Quarter 3 Courses -->
+    <tr>
+        <td rowspan="3">3</td>
+        <td>Framework Project 2</td>
+        <td>5</td>
+        <td>Final delivery</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
+    </tr>
+    <tr>
+        <td>Report of Acceptance Tests</td>
+        <td>2.5</td>
+        <td>Report</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="2.5"></td>
+    </tr>
+    <tr>
+        <td>IT Development Portfolio</td>
+        <td>5</td>
+        <td>Portfolio submission</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
+    </tr>
 
+    <!-- Quarter 4 Courses -->
+    <tr>
+        <td rowspan="2">4</td>
+        <td>Business IT Consultancy Basics</td>
+        <td>2.5</td>
+        <td>Video submission</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="2.5"></td>
+    </tr>
+    <tr>
+        <td>Personal Professional Development Exploration</td>
+        <td>12.5</td>
+        <td>Criterium focused interview</td>
+        <td>0</td>
+        <td><input type="checkbox" class="ec-checkbox" data-ec="12.5"></td>
+    </tr>
 
+    <!-- Total ECs Section -->
+    <tr>
+        <th colspan="2">Total ECs Acquired</th>
+        <td colspan="4">Maximum: 60 EC | NBSA Boundary: 45 EC | Current: <span id="currentEC">0</span> EC</td>
+    </tr>
+</table>
 
+<!-- EC Progress Section -->
+<div class="progress-container">
+  <div class="progress-bar" id="ecProgressBar">0 / 60 EC</div>
+</div>
 
-  </table>
-
-  <table>
-
-  </table>
 
   <div class="footer-container">
     <div class="footer">
@@ -227,15 +208,49 @@
     </div>
   </div>
 
-  <aside>
-    <div class="sidenav">
-      <a href="https://github.com/HZ-HBO-ICT" target="_blank" >HZ HBO ICT GITHUB</a>
-      <a href="https://hz.nl/en/secure/voor-medewerkers/jaarrooster-2 " target="_blank" >MyHZ study progress</a>
-      <a href="https://learn.hz.nl/my/" target="_blank" >Learn environment</a>
-      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" >IR for ICT</a>
-      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf" target="_blank" >Course and Examination Regulations</a>
-    </div>
-  </aside>
+ 
 </body>
+<script>
+  function openNav() {
+ document.getElementById("mySidebar").style.width = "250px";
+ document.getElementById("main").style.marginLeft = "250px";
+ document.querySelector(".openbtn").style.display = "none";
+}
 
+function closeNav() {
+ document.getElementById("mySidebar").style.width = "0";
+ document.getElementById("main").style.marginLeft= "0";
+ document.querySelector(".openbtn").style.display = "block";
+}
+
+const checkboxes = document.querySelectorAll('.ec-checkbox');
+        const progressBar = document.getElementById('ecProgressBar');
+        const currentECElement = document.getElementById('currentEC');
+        const maxEC = 60;
+        let currentEC = 0;
+
+        // Function to update the progress bar and EC value
+        function updateProgress() {
+            const percentage = (currentEC / maxEC) * 100;
+            progressBar.style.width = percentage + '%';
+            progressBar.textContent = currentEC + ' / ' + maxEC + ' EC';
+            currentECElement.textContent = currentEC;
+        }
+
+        // Event listeners for checkboxes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                const ecValue = parseFloat(this.dataset.ec);
+                if (this.checked) {
+                    currentEC += ecValue;
+                } else {
+                    currentEC -= ecValue;
+                }
+                updateProgress();
+            });
+        });
+
+        // Initial progress update
+        updateProgress();
+</script>
 </html>

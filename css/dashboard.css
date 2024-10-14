@@ -1,3 +1,4 @@
+
 table,
 th,
 td {
@@ -32,4 +33,24 @@ td {
 
 table tr td:nth-child(2) {
     width: 400px;
+}
+
+
+.progress-container {
+    width: 80%; /* Set the width to 80% of the page */
+    margin: 0 auto; /* Center the progress bar */
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+}
+    
+.progress-bar {
+    height: 100%;
+    background-color: rgba(0, 92, 149, 255);
+    text-align: center;
+    line-height: 30px; /* Vertically center the text */
+    color: rgb(0, 0, 0);
+    transition: width 0.4s ease;
 }

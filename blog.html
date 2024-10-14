@@ -18,7 +18,7 @@
       <li><a href="profile.html">Profile</a></li>
       <li><a href="dashboard.html">Dashboard</a></li>
       <li><a href="faq.html">FAQ</a></li>
-      <!--Blog and Post page joined but left code for split later-->  
+      <!--Blog and Post page joined but left code for split later-->
       <li>
         <div class="dropdown">
           <a class="dropbtn active " href="blog.html" target="_self">
@@ -37,9 +37,25 @@
         </a>
 
         </a></li>
+        
     </ul>
   </nav>
+   <aside>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="https://github.com/HZ-HBO-ICT" target="_blank">HZ HBO ICT GITHUB</a>
+      <a href="https://hz.nl/en/secure/voor-medewerkers/jaarrooster-2 " target="_blank">MyHZ study progress</a>
+      <a href="https://learn.hz.nl/my/" target="_blank">Learn environment</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+        target="_blank">IR for ICT</a>
+      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
+        target="_blank">Course and Examination Regulations</a>
+    </div>
+  </aside>
 
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰ Usefull links</button>  
+  </div>
 
 
   <div class="row">
@@ -52,7 +68,7 @@
           <div>
             As a networking student, I've often been asked why I decided to dive deeper into Information and
             Communication Technology (ICT). For me, the choice wasn’t just about expanding my knowledge in networking;
-            <span class="mybox1" id="mybox1id">
+            <span class="mybox1" >
               but about understanding the broader landscape in which networking operates. I was fascinated by how
               interconnected the world had become and how critical effective communication systems were to almost every
               facet of modern life. From the seamless flow of information between devices to the vast networks that
@@ -60,7 +76,7 @@
 
             </span>
           </div>
-          <button id="mybuttonid" onclick="changeReadMore()">
+          <button class="mybutton" onclick="changeReadMore(this)">
             Read More
           </button>
         </div>
@@ -74,7 +90,7 @@
           <div>
             Solid foundation in networking principles, including TCP/IP, routing, and switching. Competence in embedded
             systems, allowing for the design and integration of specialized hardware solutions.
-            <span class="mybox1" id="mybox1id">
+            <span class="mybox1" >
               Strong programming skills in languages such as Python, C++, and Java, enabling versatile problem-solving
               and automation.
               Versatility:
@@ -112,7 +128,7 @@
 
             </span>
           </div>
-          <button id="mybuttonid" onclick="changeReadMore()">
+          <button class="mybutton" onclick="changeReadMore(this)">
             Read More
           </button>
         </div>
@@ -127,7 +143,7 @@
             My proficiency in Python and C++, combined with a strong grasp of electronics and experience with PCB
             building software, provides a robust foundation for tackling diverse and challenging projects. Here’s a
             closer look at how these skills come together to shape my work.
-            <span class="mybox1" id="mybox1id">
+            <span class="mybox1" >
               Intermediate Programming Skills: Python and C++
               Python: My experience with Python enables me to tackle a variety of programming tasks with efficiency and
               ease. Known for its simplicity and versatility, Python is my go-to language for writing scripts,
@@ -145,7 +161,7 @@
 
             </span>
           </div>
-          <button id="mybuttonid" onclick="changeReadMore()">
+          <button class="mybutton" onclick="changeReadMore(this)">
             Read More
           </button>
         </div>
@@ -158,7 +174,7 @@
           <div>
             Clear Skill Presentation: Effective outline of your programming skills in Python and C++, as well as your
             understanding of electronics.
-            <span class="mybox1" id="mybox1id">
+            <span class="mybox1" >
               Highlight any notable achievements or outcomes resulting from your programming and electronics skills. For
               example, mention if a project you worked on led to a significant improvement in performance or if you
               solved a particularly difficult problem.
@@ -179,7 +195,7 @@
 
             </span>
           </div>
-          <button id="mybuttonid" onclick="changeReadMore()">
+          <button class="mybutton" onclick="changeReadMore(this)">
             Read More
           </button>
         </div>
@@ -192,7 +208,7 @@
           <div>
             Artificial Intelligence (AI) is transforming industries across the globe, and the Information and
             Communication Technology (ICT) field is no exception.
-            <span class="mybox1" id="mybox1id">
+            <span class="mybox1" >
               Network Optimization: AI algorithms can analyze vast amounts of network data to identify patterns and
               optimize performance. Machine learning models predict traffic loads, dynamically adjust bandwidth
               allocation, and enhance overall network efficiency.
@@ -239,7 +255,7 @@
 
             </span>
           </div>
-          <button id="mybuttonid" onclick="changeReadMore()">
+          <button class="mybutton" onclick="changeReadMore(this)">
             Read More
           </button>
         </div>
@@ -249,29 +265,6 @@
 
   </div>
   </div>
-
-  <script>
-    function changeReadMore() {
-      const mycontent =
-        document.getElementById('mybox1id');
-      const mybutton =
-        document.getElementById('mybuttonid');
-
-      if (mycontent.style.display === 'none'
-        || mycontent.style.display === '') {
-        mycontent.style.display = 'block';
-        mybutton.textContent = 'Read Less';
-      } else {
-        mycontent.style.display = 'none';
-        mybutton.textContent = 'Read More';
-      }
-    }
-
-  </script>
-
-
-
-
 
   <div class="footer-container">
     <div class="footer">
@@ -288,15 +281,56 @@
     </div>
   </div>
 
-  <aside>
-    <div class="sidenav">
-      <a href="https://github.com/HZ-HBO-ICT" target="_blank" >HZ HBO ICT GITHUB</a>
-      <a href="https://hz.nl/en/secure/voor-medewerkers/jaarrooster-2 " target="_blank" >MyHZ study progress</a>
-      <a href="https://learn.hz.nl/my/" target="_blank" >Learn environment</a>
-      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank" >IR for ICT</a>
-      <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf" target="_blank" >Course and Examination Regulations</a>
-    </div>
-  </aside>
+
+  <script>
+    
+      function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.querySelector(".openbtn").style.display = "none";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.querySelector(".openbtn").style.display = "block";
+  }
+
+      
+    function changeReadMore() {
+      const mycontent =
+        document.getElementById('mybox1id');
+      const mybutton =
+        document.getElementById('mybuttonid');
+
+      if (mycontent.style.display === 'none'
+        || mycontent.style.display === '') {
+        mycontent.style.display = 'block';
+        mybutton.textContent = 'Read Less';
+      } else {
+        mycontent.style.display = 'none';
+        mybutton.textContent = 'Read More';
+      }
+    }
+  function changeReadMore(button) {
+  // Find the sibling element (the span) within the same mybox div
+  const span = button.previousElementSibling.querySelector('.mybox1');
+  
+  // Toggle the visibility of the span
+  if (span.style.display === 'none' || span.style.display === '') {
+    span.style.display = 'inline';
+    button.textContent = 'Read Less';
+  } else {
+    span.style.display = 'none';
+    button.textContent = 'Read More';
+  }
+}
+
+// Initialize all spans to be hidden on page load
+document.querySelectorAll('.mybox1').forEach(span => {
+  span.style.display = 'none';
+});
+  </script>
 </body>
 
 </html>
