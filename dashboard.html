@@ -55,13 +55,8 @@
     <button class="openbtn" onclick="openNav()">☰ Usefull links</button>  
   </div>
 
-  
   <section class="wrap">
-
   </section>
-
-
-
 
   <table>
     <colgroup>
@@ -76,7 +71,6 @@
         <th>Grade</th>
         <th>Completed</th>
     </tr>
-
     <!-- Quarter 1 Courses -->
     <tr>
         <td rowspan="3">1</td>
@@ -100,7 +94,6 @@
         <td>0</td>
         <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
     </tr>
-
     <!-- Quarter 2 Courses -->
     <tr>
         <td rowspan="5">2</td>
@@ -138,7 +131,6 @@
         <td>0</td>
         <td><input type="checkbox" class="ec-checkbox" data-ec="1.25"></td>
     </tr>
-
     <!-- Quarter 3 Courses -->
     <tr>
         <td rowspan="3">3</td>
@@ -162,7 +154,6 @@
         <td>0</td>
         <td><input type="checkbox" class="ec-checkbox" data-ec="5"></td>
     </tr>
-
     <!-- Quarter 4 Courses -->
     <tr>
         <td rowspan="2">4</td>
@@ -179,7 +170,6 @@
         <td>0</td>
         <td><input type="checkbox" class="ec-checkbox" data-ec="12.5"></td>
     </tr>
-
     <!-- Total ECs Section -->
     <tr>
         <th colspan="2">Total ECs Acquired</th>
@@ -191,8 +181,6 @@
 <div class="progress-container">
   <div class="progress-bar" id="ecProgressBar">0 / 60 EC</div>
 </div>
-
-
   <div class="footer-container">
     <div class="footer">
       <div class="footer-heading heading-1">
@@ -207,7 +195,6 @@
       </div>
     </div>
   </div>
-
  
 </body>
 <script>
@@ -228,7 +215,6 @@ const checkboxes = document.querySelectorAll('.ec-checkbox');
         const currentECElement = document.getElementById('currentEC');
         const maxEC = 60;
         let currentEC = 0;
-
         // Function to update the progress bar and EC value
         function updateProgress() {
             const percentage = (currentEC / maxEC) * 100;
@@ -236,7 +222,6 @@ const checkboxes = document.querySelectorAll('.ec-checkbox');
             progressBar.textContent = currentEC + ' / ' + maxEC + ' EC';
             currentECElement.textContent = currentEC;
         }
-
         // Event listeners for checkboxes
         checkboxes.forEach(checkbox => {
             checkbox.addEventListener('change', function() {
@@ -249,7 +234,6 @@ const checkboxes = document.querySelectorAll('.ec-checkbox');
                 updateProgress();
             });
         });
-
         // Initial progress update
         updateProgress();
 </script>

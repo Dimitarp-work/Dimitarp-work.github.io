@@ -8,11 +8,9 @@
   <title>test</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/faq.css">
-
 </head>
 
 <body>
-
   <nav class="topnavbar">
     <ul>
       <li><a href="index.html">Home page</a></li>
@@ -35,7 +33,7 @@
             <img src="img/hz-logo.png" class="img-fluid">
           </div>
         </a>
-        </a></li>
+        </li>
     </ul>
   </nav>
   <aside>
@@ -55,7 +53,6 @@
     <button class="openbtn" onclick="openNav()">☰ Usefull links</button>  
   </div>
 
-
   <div class="faq">
     <p> If you have a question here you can find the answer.</p>
     <h1> Frequently asked questions.</h1>
@@ -72,7 +69,6 @@
         email address. </p>
     </div>
 
-
     <button class="buttonfaq"> How can I buy something (like when I sign up for the IT introduction event) on the HZ web
       shop? </button>
     <div class="panel1">
@@ -80,26 +76,16 @@
         like in a normal online shop. </p>
     </div>
 
-
     <button class="buttonfaq"> How can you book a project space?</button>
     <div class="panel1">
       <p> You can book one online or just enter an empty room and take it ;] </p>
     </div>
 
-
     <button class="buttonfaq"> What are the instructions if you want to park your car at the HZ parking lot?</button>
     <div class="panel1">
       <p> Well after the changes the Hz parking lot is no more accessible. </p>
     </div>
-
   </div>
-
-
-
-
-
-
-
 
   <div class="footer-container">
     <div class="footer">
@@ -117,32 +103,22 @@
   </div>
 </body>
 
-
 <script>
   var buttonfaq = document.getElementsByClassName("buttonfaq");
   var i;
   for (i = 0; i < buttonfaq.length; i++) {
-
     buttonfaq[i].addEventListener("click", function () {
-
       this.classList.toggle("active");
-
       this.parentElement.classList.toggle("active");
-
       var panel = this.nextElementSibling;
-
       if (panel.style.display === "block") {
-
         panel.style.display = "none";
-
       } else {
-
         panel.style.display = "block";
       }
     });
   }
 </script>
-
 
 </body>
 <script>

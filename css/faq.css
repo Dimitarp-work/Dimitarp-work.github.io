@@ -4,8 +4,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
     color: rgb(4, 4, 4);
-   
-    
 }
 
 .faq > p
@@ -22,6 +20,7 @@
 .faq > p {
     font-size: 20px;
 }
+
 .buttonfaq {
     background-color: rgba(0,92,149,255);
     color: white;
@@ -37,10 +36,7 @@
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    
 }
-
-
 
 .panel1 {
     padding: 0 18px;
@@ -49,16 +45,13 @@
     display: none;
     max-width: 66%;
     border: 2px;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;  
 }
 
 .panel1 p{
     color: rgb(0, 0, 0);
     font-size: 22px;
-    line-height: 1.4;
-    
+    line-height: 1.4;  
 }
 
 .faq.active {

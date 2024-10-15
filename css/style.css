@@ -1,23 +1,25 @@
 body {
-
     background-image: url(https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header-53082_1080x675.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+
 main {
     padding: 16px;
     margin-bottom: 30px;
 }
+
 .list h5 {
     text-align: center;
     font-size: 25px;
     padding-top: 50px;
 }
+
 .list ul {
     text-align: center;
-
 }
+
 .list li {
     font-size: 20px;
     border: 2px solid black;
@@ -25,6 +27,7 @@ main {
     padding-bottom: 25px;
     border-collapse: separate;
 }
+
 .full {
     width: 50%;
     max-width: 1000px;
@@ -34,6 +37,7 @@ main {
     display: grid;
     grid-template-columns: 2fr 4fr;
 }
+
 .left {
     position: initial;
     background-color: rgba(0, 92, 149, 255);
@@ -59,6 +63,7 @@ main {
 .project {
     margin-bottom: 30px;
 }
+
 .topnavbar ul {
     list-style-type: none;
     background-color: rgb(48, 48, 46);
@@ -67,6 +72,7 @@ main {
     overflow: hidden;
     width: auto;
 }
+
 .topnavbar a {
     color: #f2f2f2;
     text-decoration: none;
@@ -76,37 +82,46 @@ main {
     text-align: center;
     font-size: 17px;
 }
+
 .topnavbar a.active {
     background-color: rgb(48, 48, 46);
     color: rgb(234, 71, 71);
 }
+
 .a.active {
     color: rgb(234, 71, 71);
 }
+
 .topnavbar a:hover {
     background-color: rgb(31, 31, 28);
 }
+
 .topnavbar li {
     float: inherit;
 }
+
 .dropdown-content {
     display: none;
     background-color: inherit;
     min-width: 160px;
     z-index: 5;
 }
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 .wrap {
     width: 900px;
     margin: 0 auto;
 }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box0;
 }
+
 .footer {
     width: 100%;
     height: 30vh;
@@ -124,7 +139,6 @@ main {
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
-
 }
 
 .footer-heading h2 {
@@ -143,12 +157,7 @@ main {
 .footer-heading a:hover {
     color: rgb(128, 237, 74);
     transition: 0.3s ease-in-out;
-
 }
-
-
-
-
 
   .sidebar {
     height: 100%;
@@ -190,8 +199,7 @@ main {
     background-color:  rgb(48, 48, 46);
     color: white;
     padding: 10px 15px;
-    border: none;
-   
+    border: none; 
   }
   
   .openbtn:hover {
@@ -213,7 +221,6 @@ main {
     .footer {
         padding-top: 2rem;
     }
-
 }
 
 @media screen and (max-width: 1025px) {
@@ -221,5 +228,3 @@ main {
         height: 50vh;
     }
 }
-
-  

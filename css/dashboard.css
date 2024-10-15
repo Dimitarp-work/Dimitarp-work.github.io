@@ -10,31 +10,25 @@ td {
     color: #fbfafa;
 }
 
-
-
 table {
     border: #fbfafa;
     border-style: double dotted;
     width: 92%;
-
 }
 
 th {
     font-weight: bold;
     border: 2px solid black;
-
 }
 
 td {
     border: 2px solid black;
     font-size: 14;
-
 }
 
 table tr td:nth-child(2) {
     width: 400px;
 }
-
 
 .progress-container {
     width: 80%; /* Set the width to 80% of the page */
