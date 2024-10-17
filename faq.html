@@ -19,11 +19,10 @@
       <li><a href="faq.html" class="active">FAQ</a></li>
       <li>
         <div class="dropdown">
-          <a class="dropbtn" href="blog.html" target="_self">
-            <button1>Blog</button1>
-            <div class="dropdown-content">
-              <a href="">Posts</a>
-            </div>
+          <a class="dropbtn" href="blog.html">Blog</a>
+          <div class="dropdown-content">
+            <a href="post.html">Posts</a>
+          </div>
         </div>
       </li>
       <li> <a
@@ -33,7 +32,7 @@
             <img src="img/hz-logo.png" class="img-fluid">
           </div>
         </a>
-        </li>
+      </li>
     </ul>
   </nav>
   <aside>
@@ -50,11 +49,10 @@
   </aside>
 
   <div id="main">
-    <button class="openbtn" onclick="openNav()">☰ Usefull links</button>  
+    <button class="openbtn" onclick="openNav()">☰ Usefull links</button>
   </div>
 
   <div class="faq">
-    <p> If you have a question here you can find the answer.</p>
     <h1> Frequently asked questions.</h1>
     <button class="buttonfaq">How can you print a document from your laptop at HZ?
     </button>
@@ -104,34 +102,27 @@
 </body>
 
 <script>
-  var buttonfaq = document.getElementsByClassName("buttonfaq");
-  var i;
-  for (i = 0; i < buttonfaq.length; i++) {
-    buttonfaq[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      this.parentElement.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.display === "block") {
-        panel.style.display = "none";
-      } else {
-        panel.style.display = "block";
-      }
-    });
-  }
-</script>
+  var faqButtons = document.querySelectorAll(".buttonfaq");
 
-</body>
-<script>
-    function openNav() {
+  faqButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  });
+
+  function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     document.querySelector(".openbtn").style.display = "none";
   }
-  
+
   function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    document.getElementById("main").style.marginLeft = "0";
     document.querySelector(".openbtn").style.display = "block";
   }
-  </script>
+</script>
+
 </html>

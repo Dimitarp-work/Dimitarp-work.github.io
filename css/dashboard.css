@@ -31,20 +31,21 @@ table tr td:nth-child(2) {
 }
 
 .progress-container {
-    width: 80%; /* Set the width to 80% of the page */
-    margin: 0 auto; /* Center the progress bar */
+    width: 80%; 
+    margin: 0 auto; 
     background-color: #f3f3f3;
     border-radius: 10px;
     overflow: hidden;
     height: 30px;
     position: relative;
+    margin-bottom: 20px;   
 }
     
 .progress-bar {
     height: 100%;
     background-color: rgba(0, 92, 149, 255);
     text-align: center;
-    line-height: 30px; /* Vertically center the text */
+    line-height: 30px; 
     color: rgb(0, 0, 0);
     transition: width 0.4s ease;
 }
